@@ -1,0 +1,165 @@
+body {
+	background-image:url("../images/background.gif");
+}
+
+#header {
+	height:200px;
+	background-image:url("../images/friendfinder.png");
+	background-size: 100%;
+	background-repeat:no-repeat;
+}
+
+#welcome {
+	height:90px;
+	background-image:url("../images/welcometo.png");
+	background-size: 100%;
+	background-repeat:no-repeat;
+	margin-bottom:-15px;
+}
+
+#row1 {
+	height:180px;
+}
+
+#row3 {
+	margin-top:80px;
+}
+
+#row4 {
+	height:58px;
+}
+
+#row5 {
+	height:90px;
+	margin-bottom:-15px;
+}
+
+#row6 {
+	height:200px;
+}
+
+#slides2 {
+	border-style:solid;
+	border-color:red;
+	border-width:4px;
+}
+
+.message {
+	position:absolute;
+	right:90px;
+	top:-40px;
+}
+
+#takesurvey {
+	color:red;
+}
+
+#gif1 {
+	position:absolute;
+	left:-280px;
+	top:10px;
+	width:300px;
+	border-style:solid;
+	border-color:red;
+	border-width:3px;
+}
+
+#gif2 {
+	position:absolute;
+	left:-280px;
+	top:310px;
+	width:300px;
+	border-style:solid;
+	border-color:red;
+	border-width:3px;
+}
+
+#gif3 {
+	position:absolute;
+	left:-280px;
+	top:610px;
+	width:300px;
+	border-style:solid;
+	border-color:red;
+	border-width:3px;
+}
+
+#gif4 {
+	position:absolute;
+	right:-280px;
+	top:10px;
+	width:300px;
+	border-style:solid;
+	border-color:red;
+	border-width:3px;
+}
+
+#gif5 {
+	position:absolute;
+	right:-280px;
+	top:310px;
+	width:300px;
+	border-style:solid;
+	border-color:red;
+	border-width:3px;
+}
+
+#gif6 {
+	position:absolute;
+	right:-280px;
+	top:610px;
+	width:300px;
+	border-style:solid;
+	border-color:red;
+	border-width:3px;
+}
+
+#lookingfor, #youvecometo, #rightplace {
+	width:100%;
+}
+
+#rightplace {
+	margin-top:8px;
+}
+
+#perfectfriend {
+	width:140%;
+	position:absolute;
+	left:-20%;
+}
+
+#lookingfor, #youvecometo {
+	position:absolute;
+	top:40px;
+}
+
+#perfectfriend, #rightplace {
+	position:absolute;
+	top: 180px;
+}
+
+#row9 {
+	height:80px;
+}
+
+#linda {
+	width:100%;
+	border-style:ridge;
+	border-color:white;
+	border-width:5px;
+}
+
+#takethedamnsurvey {
+	font-family:Georgia;
+	text-align: center;
+	font-size:50px;
+	margin-top:40px;
+}
+
+a:link, a:visited{
+	color:white;
+}
+
+a:hover, a:active{
+	color:red;
+}

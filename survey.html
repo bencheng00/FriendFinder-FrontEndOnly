@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Innocuous Questions</title>
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/bootstraptheme.css">
+    <link rel="stylesheet" href="assets/css/style-survey.css">
+    <script src="assets/javascript/jquery.js"></script>
+    <script src="assets/javascript/survey.js"></script>
+</head>
+
+<body>
+
+<audio src="assets/images/pornmusic.mp3" id="porn"></audio>
+<audio src="assets/images/fart.mp3" id="fart"></audio>
+<audio src="assets/images/orgasm1.mp3" id="orgasm1"></audio>
+<audio src="assets/images/orgasm2.mp3" id="orgasm2"></audio>
+
+
+<!-- BEGINNING OF SCREEN 1 -->
+<div class="container" id="screen1" style="display:block;opacity:1">
+    <div class="row" id="row1"></div>
+    <div class="row" id="row2">
+        <div class="col-lg-1 col-md-1 col-sm-1 col-sx-1"></div>
+        <div class="col-lg-10 col-md-10 col-sm-10 col-sx-10" id="pornbox">
+        <img src="assets/images/orgasm.gif" id="orgasm">
+        </div>
+        <div class="col-lg-1 col-md-1 col-sm-1 col-sx-1"></div>
+    </div>   
+    <div class="row" id="row3">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-sx-12"></div>
+    </div>
+</div>
+<!-- END OF SCREEN 1 -->
+
+
+<!-- BEGINNING OF SCREEN 2 -->
+  <div class="container" id="surveyscreen" style="display:none;opacity:0">
+
+    <img src="assets/images/knowyou.png" id="header">
+    <br>
+    <hr>
+
+    <h3 style="text-align: center" id="instructions1"><strong>Please fill out these required fields</strong></h3>
+    <h4>Your Name:</h4>
+    <input type="text" name="" id="name" class="form-control" required >
+    <br>
+    <h4>Link To Your Photo (Uglies Need Not Apply):</h4>
+    <input type="text" name="" id="photo" class="form-control" required >
+    <br>
+    <hr>
+    <h3 style="text-align: center" id="instructions2"><strong>How strongly do you agree or disagree?</strong></h3>
+
+    <h3><strong>Statement #1:</strong></h3>
+    <h4>It is important to me that my future spouse should know the multiplication table. Preferably by heart.</h4>
+    <select data-placeholder="" class="chosen-select" id="q1">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3 (Meh)</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <h3><strong>Statement #2:</strong></h3>
+    <h4>I am equally adept at being on top and being on the bottom.</h4>
+    <select data-placeholder="" class="chosen-select" id="q2">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3 (Meh)</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h3><strong>Statement #3:</strong></h3>
+    <h4>It bothers me when someone doesn't wash his/her hands after using the bathroom.</h4>
+    <select data-placeholder="" class="chosen-select" id="q3">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3 (Meh)</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h3><strong>Statement #4:</strong></h3>
+    <h4>I like sushi.</h4>
+    <select data-placeholder="" class="chosen-select" id="q4">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3 (Meh)</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h3><strong>Statement #5:</strong></h3>
+    <h4>I don't mind getting genital herpes from my future spouse, as long as he/she has health insurance (must be Gold or Platinum plan).</h4>
+    <select data-placeholder="" class="chosen-select" id="q5">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3 (Meh)</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h3><strong>Statement #6:</strong></h3>
+    <h4>I want to have kids, but if they turn out to be assholes, I want to put them up for adoption.</h4>
+    <select data-placeholder="" class="chosen-select" id="q6">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3 (Meh)</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h3><strong>Statement #7:</strong></h3>
+    <h4>I enjoy doggie-style.</h4>
+    <select data-placeholder="" class="chosen-select" id="q7">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3 (Meh)</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <h3><strong>Statement #8:</strong></h3>
+    <h4>I am open to three-somes, five-somes, or any other arrangement as long as the number of participants is an odd number.</h4>
+    <select data-placeholder="" class="chosen-select" id="q8">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3 (Meh)</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <h3><strong>Statement #9:</strong></h3>
+    <h4>I prefer to be the one wielding the whip, but I am open to being whipped as well.</h4>
+    <select data-placeholder="" class="chosen-select" id="q9">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3 (Meh)</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <h3><strong>Statement #10:</strong></h3>
+    <h4>I hate pumpkin-spiced everything.</h4>
+    <select data-placeholder="" class="chosen-select" id="q10">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3 (Meh)</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <br>
+    <br>
+
+  <div class="row">
+    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5"></div>
+    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+    <!-- Submit Button -->
+    <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>Submit</button>
+    </div>
+    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5"></div>
+  </div>
+</div>
+<!-- END OF SCREEN 2 -->
+
+
+<!-- BEGINNING OF SCREEN 3 -->
+<div class="container" id="screen3" style="display:none;opacity:1">
+    <div class="row" id="row4"></div>
+    <div class="row" id="row5">
+        <div class="col-lg-1 col-md-1 col-sm-1 col-sx-1"></div>
+        <div class="col-lg-10 col-md-10 col-sm-10 col-sx-10" id="twerkbox">
+        <img src="assets/images/shake.gif" id="shake">
+        </div>
+        <div class="col-lg-1 col-md-1 col-sm-1 col-sx-1"></div>
+    </div>   
+    <div class="row" id="row6">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-sx-4"></div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-sx-4">
+          <img src="assets/images/luckyyou.png" style="width:100%; margin-top:40px">
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-sx-4"></div>
+    </div>
+</div>
+<!-- END OF SCREEN 3 -->
+
+
+</body>
+</html>
